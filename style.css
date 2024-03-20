@@ -144,5 +144,37 @@ nav p {
     border: none;
 }
 
+/*inizio enterprice */
+
+.container3 {
+    min-height: 2rem;
+}
+
+.teambox {
+    background-color: brown;
+    width: 100%;
+    padding: 0.5rem;
+    border: 2px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.enterprice {
+min-height: 2rem;
+background-color: gray;
+border: 2px solid black;
+}
+
+.enterprice h3, p {
+margin: 0.5rem;
+}
+
+.btnpos {
+    position: relative;
+    left: 37rem;
+    bottom: 3rem;
+}
+
 
 
