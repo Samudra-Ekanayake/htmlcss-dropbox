@@ -307,15 +307,23 @@ margin: 0.5rem;
     background-color: black;
     margin-left: 10rem;
     margin-right: 10rem;
-}
-
-.ftbox {
-    background-color: green;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    width: 2rem;
-    height: 5rem;
+}
+
+.ftbox {
+    color: white;
+    min-width: 2rem;
+    min-height: 5rem;
+}
+
+.ftbox ul {
+    list-style-type: none;
+}
+
+.ftbox h3 {
+    margin-bottom: 1rem;
 }
 
 
